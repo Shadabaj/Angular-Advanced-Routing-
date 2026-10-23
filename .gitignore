@@ -1,0 +1,22 @@
+# Dependencies
+/node_modules
+
+# Angular build output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/.angular/cache
+/coverage
+
+# Environment files may contain local endpoints or values
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
